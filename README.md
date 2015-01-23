@@ -8,7 +8,7 @@
 
 * 우분투 데스크탑
 
-[PC(인텔 x86) 데스크탑 이미지](http://releases.ubuntu.com/ubuntu-14.04.1-desktop-i386.iso)
+[PC(인텔 x86) 데스크탑 이미지](http://releases.ubuntu.com/14.04/ubuntu-14.04.1-desktop-i386.iso)
 
 [64비트(AMD 64) 데스크탑 이미지](http://releases.ubuntu.com/14.04/ubuntu-14.04.1-desktop-amd64.iso)
 
