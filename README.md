@@ -1,4 +1,4 @@
-![Clastcasts Logo](https://raw.github.com/ShinJaehun/ClassCasts/master/app/assets/images/classcasts.png)
+/* ![Clastcasts Logo](https://raw.github.com/ShinJaehun/ClassCasts/master/app/assets/images/classcasts.png) */
 
 ## 리눅스 서버를 다루는 기술
 
