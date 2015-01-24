@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+then
+	echo "usage : vv guestname"
+else
+	virt-viewer -c qemu:///system "$1" &
+fi
+exit 0
+

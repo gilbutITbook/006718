@@ -1,0 +1,1 @@
+public_server01	-fstype=nfs4	192.168.122.201:/srv/nfs/public

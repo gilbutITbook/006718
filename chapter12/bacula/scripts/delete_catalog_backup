@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# This script deletes a catalog dump
+#
+db_name=bacula
+
+rm -f /var/lib/bacula/${db_name}.sql

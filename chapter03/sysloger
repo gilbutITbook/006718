@@ -1,0 +1,11 @@
+#!/bin/bash
+result=syslogresult`date +%y%m%d`
+if [ $1 -gt 30 ]
+then
+  echo "too big"
+  exit 1
+else
+  line=${1:-10}
+fi
+tail /var/log/syslog -n$1ine > $result
+exit 0

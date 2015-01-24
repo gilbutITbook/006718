@@ -1,0 +1,14 @@
+#!/bin/bash
+backupdir="/var/dump/mysql"
+user=root
+pw=root
+rm -f $backupdir/*.sql
+dblist=`mysql -u$user -p$pw -e "show databases" | tail -n+2`
+for dbname in $dblist
+do
+  if [ "$dbname" != "information_schema" -a "$dbname" != "mysql" \
+	-a "$dbname" != "performance_schema" ]; then
+	mysqldump -u${user} -p${pw} ${dbname} > ${backupdir}/${dbname}.sql
+  fi
+done
+

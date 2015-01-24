@@ -1,0 +1,1 @@
+share_winvm01	-fstype=cifs,credentials=/etc/auto.auth,uid=1000,gid=1000	://192.168.122.222/share
